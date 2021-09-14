@@ -1,0 +1,97 @@
+.container{
+    display:flex;
+    background-image: url('img/images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-color:#e0e8ff;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    /* background-color:black; */
+    /* position:relative */
+}
+
+.box{
+    border:1px groove;
+    border-radius:20px;
+    padding-bottom:80px;
+    padding-top:0px;
+    margin:130px;
+    position: inherit;
+    /* left: 40%; */
+    width: auto;
+    align-self: center;
+    /* justify-content: center; */
+    background-color: white;
+    
+}
+
+.box img{
+   border-radius: 20px 20px 0px 0px;
+}
+
+.content h1{
+text-align: center;
+    padding: 20px;
+    font-family: 'Red Hat Display';
+}
+.content p{
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    color: gray;
+    font-size: 16px;
+}
+
+.pricing{
+display:flex;
+justify-content: space-between;
+background-color:hsl(225, 100%, 98%);
+padding:20px;
+margin: 30px;
+border-radius: 20px;}
+
+ .img{
+    border-radius:100px;
+    height: 35px;
+    width: 45px;
+    margin: 10px;
+    padding:20px;
+    /* background-color: plum; */
+    color:purple;
+}
+.music_note{
+    align-self: center;
+}
+
+.pricing a{
+    text-align: center;
+    
+}
+
+.action{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    
+}
+
+.change{
+    align-self: center;
+}
+ button{
+    background-color: hsl(245, 75%, 52%);
+    color:white;
+    padding: 30px;
+    width: 80%;
+    margin:10px;
+    border-radius: 20px;
+  font-size: 16px;
+  font-family:'Red Hat Display'
+}
+
+.cancel{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding-top: 10px;
+}
