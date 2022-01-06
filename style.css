@@ -1,13 +1,18 @@
+body{
+    background-color:#e0e8ff;
+}
 .container{
     display:flex;
     background-image: url('img/images/pattern-background-desktop.svg');
     background-repeat: no-repeat;
-    background-color:#e0e8ff;
+    background-size: contain;
     height: auto;
+    width: 100%;
+    margin: 0px;
+    padding:0px;
     align-items: center;
     justify-content: center;
-    /* background-color:black; */
-    /* position:relative */
+   
 }
 
 .box{
@@ -17,10 +22,8 @@
     padding-top:0px;
     margin:130px;
     position: inherit;
-    /* left: 40%; */
     width: auto;
     align-self: center;
-    /* justify-content: center; */
     background-color: white;
     
 }
@@ -95,3 +98,6 @@ border-radius: 20px;}
     justify-content: center;
     padding-top: 10px;
 }
+
+a { text-decoration: none; }
+    
